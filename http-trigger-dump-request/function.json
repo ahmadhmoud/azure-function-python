@@ -11,6 +11,13 @@
       "type": "http",
       "direction": "out",
       "name": "$return"
+    },
+    {
+      "type": "serviceBus",
+      "direction": "out",
+      "connection": "AzureServiceBusConnectionString",
+      "name": "msg",
+      "queueName": "css"
     }
   ]
 }
