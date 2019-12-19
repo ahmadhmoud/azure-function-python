@@ -17,7 +17,7 @@
       "direction": "out",
       "connection": "AzureServiceBusConnectionString",
       "name": "msg",
-      "queueName": "css"
+      "queueName": "%DATA_QUEUE_NAME%"
     }
   ]
 }
