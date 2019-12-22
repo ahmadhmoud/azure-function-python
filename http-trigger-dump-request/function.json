@@ -18,6 +18,13 @@
       "connection": "AzureServiceBusConnectionString",
       "name": "msg",
       "queueName": "%DATA_QUEUE_NAME%"
+    },
+    {
+      "type": "serviceBus",
+      "direction": "out",
+      "connection": "AzureServiceBusConnectionString",
+      "name": "msg2",
+      "queueName": "%DATA2_QUEUE_NAME%"
     }
   ]
 }
